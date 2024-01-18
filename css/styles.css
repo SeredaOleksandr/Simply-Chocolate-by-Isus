@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #FAFAFA;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+font-family: inherit; - для кнопок
+
+/* Header */
+.header {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-icon {
+}
+
+/* Hero */
+.hero {
+}
+.hero-title {
+}
