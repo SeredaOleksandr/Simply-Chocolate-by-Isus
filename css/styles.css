@@ -1,32 +1,300 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: #FAFAFA;
+  font-family: "Montserrat", sans-serif;
+  background: #fafafa;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
-
-font-family: inherit; - для кнопок
 
 /* Header */
 .header {
 }
+
 .header-logo {
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
 }
-.header-list {
+
+.header-logo span {
+  font-style: italic;
 }
+
+.header-logo-icon {
+}
+
+.header-list-nav {
+}
+
 .header-item {
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
 }
+
 .header-icon {
 }
 
 /* Hero */
 .hero {
+  border-radius: 30px;
+  background: rgba(17, 17, 17, 0.6);
 }
+
 .hero-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
 }
+
+.hero-btn {
+  color: #fff;
+  background-color: #fd9222;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero-link-down {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+}
+
+/* About */
+.about {
+  background-color: #1e1823;
+}
+
+.about-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.about-list {
+}
+
+.about-item {
+}
+
+.about-subtitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about-item-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* Title */
+
+.title {
+  color: #111;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.title span {
+  color: #fd9222;
+}
+
+/* Taste */
+.taste {
+}
+
+.taste-title {
+}
+
+.taste-text {
+  color: #111;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02;
+}
+
+.taste-list {
+}
+
+.taste-item {
+}
+
+.taste-item-img {
+}
+
+.taste-subtitle {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.taste-subtitle span {
+  color: #111;
+}
+
+/* How It's Made? */
+
+.how-title {
+}
+
+.how-img {
+}
+
+.how-subtitle {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.how-list {
+}
+
+.how-item {
+}
+
+.how-item-text {
+  color: #111;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* Our Products */
+
+.products-title {
+}
+
+.products-list {
+}
+
+.products-item {
+}
+
+.products-item-img {
+}
+
+.products-item-subtitle {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.products-item-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.products-item-btn {
+  font-family: inherit;
+  color: #111;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Top Sellers */
+.sellers-title {
+}
+
+.sellers-list {
+}
+
+.sellers-item {
+}
+
+.sellers-list-img {
+}
+
+.sellers-subtitle {
+  color: #111;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+/* Chocolate is Loved */
+.hocolate-title {
+}
+
+.hocolate-list {
+}
+
+.hocolate-item {
+}
+
+.hocolate-item-img {
+}
+
+.hocolate-subtitle {
+  color: #111;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.hocolate-item-text {
+  color: rgba(17, 17, 17, 0.70);
+text-align: center;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+
+.hocolate-link {
+  color: #111;
+font-size: 18px;
+font-weight: 600;
+line-height: normal;
+}
+
+/* Footer */
