@@ -1,11 +1,12 @@
 body {
   font-family: "Montserrat", sans-serif;
+  color: #111;
   background: #fafafa;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: currentColor;
 }
 
 ul {
@@ -16,8 +17,10 @@ ul {
 .header {
 }
 
+.header-nav {
+}
+
 .header-logo {
-  color: #111;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.11;
@@ -35,11 +38,14 @@ ul {
 }
 
 .header-item {
-  color: #111;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.02em;
+}
+
+.about-list-nav:active, .about-list-nav:hover {
+  color: #fd9222;
 }
 
 .header-icon {
@@ -66,6 +72,13 @@ ul {
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.hero-btn:hover, .hero-btn:focus, .hero-btn:active {
+  color: #fd9222;
+  border-color: #FCF1E0;
 }
 
 .hero-link {
@@ -73,6 +86,13 @@ ul {
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
+  border-radius: 100px;
+  border: 1px solid #FFF;
+}
+
+.hero-link:hover, .hero-link:focus, .hero-link:active {
+  color: #fd9222;
+  border-color: #fd9222;
 }
 
 .hero-link-down {
@@ -125,7 +145,6 @@ ul {
 /* Title */
 
 .title {
-  color: #111;
   text-align: center;
   font-size: 24px;
   font-weight: 600;
@@ -146,7 +165,6 @@ ul {
 }
 
 .taste-text {
-  color: #111;
   text-align: center;
   font-size: 14px;
   line-height: 1.29;
@@ -157,6 +175,22 @@ ul {
 }
 
 .taste-item {
+}
+
+.taste-item-yellow {
+  border-radius: 15px;
+  background: #FD9222;
+}
+
+.taste-item-white {
+  border-radius: 15px;
+  border: 1px solid #FD9222;
+  background: #FFF;
+}
+
+.taste-item-black {
+  border-radius: 15px;
+  background: #1E1823;
 }
 
 .taste-item-img {
@@ -183,7 +217,6 @@ ul {
 }
 
 .how-subtitle {
-  color: #111;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
@@ -196,7 +229,6 @@ ul {
 }
 
 .how-item-text {
-  color: #111;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -211,13 +243,15 @@ ul {
 }
 
 .products-item {
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.10);
+  background: #FFF;
 }
 
 .products-item-img {
 }
 
 .products-item-subtitle {
-  color: #111;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
@@ -253,12 +287,17 @@ ul {
 }
 
 .sellers-subtitle {
-  color: #111;
-font-size: 18px;
-font-weight: 600;
-line-height: 1.33;
-letter-spacing: -0.02em;
-text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  border-radius: 0px 0px 15px 15px;
+  border-right: 1px solid rgba(17, 17, 17, 0.10);
+  border-bottom: 1px solid rgba(17, 17, 17, 0.10);
+  border-left: 1px solid rgba(17, 17, 17, 0.10);
+  background: #FFF;
 }
 
 /* Chocolate is Loved */
@@ -269,32 +308,132 @@ text-transform: uppercase;
 }
 
 .hocolate-item {
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.10);
+  background: #FFF;
+  box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
 }
 
 .hocolate-item-img {
 }
 
 .hocolate-subtitle {
-  color: #111;
-text-align: center;
-font-size: 18px;
-font-weight: 600;
-line-height: 1.33;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
 }
 
 .hocolate-item-text {
-  color: rgba(17, 17, 17, 0.70);
-text-align: center;
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
 
 .hocolate-link {
-  color: #111;
-font-size: 18px;
-font-weight: 600;
-line-height: normal;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* Footer */
+
+.footer {
+  background: #1E1823;
+}
+
+.footer-subtitle {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+
+.footer-subtitle span {
+  color: #FD9222;
+}
+
+.footer-text {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+}
+
+.footer-soc-list {
+}
+
+.footer-soc-item {
+}
+
+.footer-soc-link {
+}
+
+.footer-soc-icon {
+}
+
+.footer-address {
+  font-style: normal;
+}
+
+.footer-address-list {
+}
+
+.footer-address-item {
+  color: #FFF;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.footer-address-item:hover, .footer-address-item:active, .footer-address-item:focus {
+  color: #fd9222;
+}
+
+.footer-address-link {
+}
+
+.footer-nav {
+}
+
+.footer-nav-list {
+}
+
+.footer-nav-item {
+  color: #FFF;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.02em;
+}
+
+.footer-nav-link {
+}
+
+.footer-btn-enter {
+  color: rgba(255, 255, 255, 0.30);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+
+  border-radius: 30px;
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-btn-subsr {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+
+  border-radius: 100px;
+  background: #FD9222;
+}
