@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #111;
   background: #fafafa;
+  max-width: 1200px;
 }
 
 a {
@@ -11,10 +12,39 @@ a {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1086px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header */
 .header {
+  padding: 24px 32px 32px;
 }
 
 .header-nav {
@@ -55,6 +85,7 @@ ul {
 .hero {
   border-radius: 30px;
   background: rgba(17, 17, 17, 0.6);
+  padding: 381px 40px 40px;
 }
 
 .hero-title {
@@ -63,6 +94,7 @@ ul {
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.03em;
+  width: 484px;
 }
 
 .hero-btn {
@@ -74,6 +106,7 @@ ul {
   line-height: normal;
   cursor: pointer;
   border-radius: 100px;
+  display: inline-block;
 }
 
 .hero-btn:hover, .hero-btn:focus, .hero-btn:active {
@@ -106,6 +139,8 @@ ul {
 /* About */
 .about {
   background-color: #1e1823;
+  padding: 50px;
+  margin-top: 80px;
 }
 
 .about-title {
@@ -133,6 +168,7 @@ ul {
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 18px;
 }
 
 .about-item-text {
@@ -159,22 +195,31 @@ ul {
 
 /* Taste */
 .taste {
+  padding-top: 120px;
 }
 
 .taste-title {
+  max-width: 412px;
+  margin: 0 auto;
 }
 
 .taste-text {
   text-align: center;
   font-size: 14px;
   line-height: 1.29;
-  letter-spacing: -0.02;
+  letter-spacing: -0.02em;
+  max-width: 486px;
+  margin: 0 auto;
+  margin-top: 28px;
+  margin-bottom: 50px;
 }
 
 .taste-list {
 }
 
 .taste-item {
+  width: 260px;
+  padding: 28px 23px;
 }
 
 .taste-item-yellow {
@@ -194,6 +239,7 @@ ul {
 }
 
 .taste-item-img {
+  margin-bottom: 36px;
 }
 
 .taste-subtitle {
@@ -204,28 +250,49 @@ ul {
   letter-spacing: -0.02em;
 }
 
+.taste-item-stap {
+  padding-left: 5px;
+}
+
 .taste-subtitle span {
   color: #111;
 }
 
 /* How It's Made? */
+.how {
+  padding-top: 120px;
+}
 
 .how-title {
+  margin-bottom: 50px;
 }
 
 .how-img {
+  margin-right: 20px;
+}
+
+.container-how {
+  padding: 32px;
+  border-radius: 15px;
+  background-color: #fff;
 }
 
 .how-subtitle {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
+  margin-bottom: 28px;
 }
 
 .how-list {
 }
 
 .how-item {
+  margin-top: 24px;
+}
+
+.how-item:first-child {
+  margin-top: 0;
 }
 
 .how-item-text {
@@ -235,8 +302,12 @@ ul {
 }
 
 /* Our Products */
+.products {
+  padding-top: 120px;
+}
 
 .products-title {
+  margin-bottom: 50px;
 }
 
 .products-list {
@@ -246,9 +317,12 @@ ul {
   border-radius: 15px;
   border: 1px solid rgba(17, 17, 17, 0.10);
   background: #FFF;
+  width: 270px;
+  padding: 32px 20px;
 }
 
 .products-item-img {
+  margin-bottom: 8px;
 }
 
 .products-item-subtitle {
@@ -257,6 +331,8 @@ ul {
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2px;
 }
 
 .products-item-text {
@@ -264,26 +340,44 @@ ul {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 18px;
 }
 
 .products-item-btn {
   font-family: inherit;
   color: #111;
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.10);
+  background: #FAFAFA;
   font-weight: 600;
   line-height: normal;
+  margin: 0 auto;
+  padding: 8px 20px;
 }
 
 /* Top Sellers */
+.sellers {
+  padding-top: 120px;
+}
+
 .sellers-title {
+  margin-bottom: 50px;
 }
 
 .sellers-list {
 }
 
 .sellers-item {
+  width: 368px;
+  padding-bottom: 28px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.10);
 }
 
 .sellers-list-img {
+  margin-bottom: 28px;
 }
 
 .sellers-subtitle {
@@ -292,16 +386,17 @@ ul {
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-
-  border-radius: 0px 0px 15px 15px;
-  border-right: 1px solid rgba(17, 17, 17, 0.10);
-  border-bottom: 1px solid rgba(17, 17, 17, 0.10);
-  border-left: 1px solid rgba(17, 17, 17, 0.10);
-  background: #FFF;
+  text-align: center;
 }
 
 /* Chocolate is Loved */
+.hocolate {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .hocolate-title {
+  margin-bottom: 50px;
 }
 
 .hocolate-list {
@@ -312,9 +407,12 @@ ul {
   border: 1px solid rgba(17, 17, 17, 0.10);
   background: #FFF;
   box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+  width: 360px;
+  padding: 24px;
 }
 
 .hocolate-item-img {
+  margin: 0 auto;
 }
 
 .hocolate-subtitle {
@@ -322,6 +420,8 @@ ul {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.33;
+  margin-top: 18px;
+  margin-bottom: 24px;
 }
 
 .hocolate-item-text {
@@ -336,12 +436,20 @@ ul {
   font-size: 18px;
   font-weight: 600;
   line-height: normal;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 222px;
+  border-radius: 100px;
+  border: 1px solid #FD9222;
+  padding: 14px 40px;
 }
 
 /* Footer */
 
 .footer {
   background: #1E1823;
+  padding: 50px 32px;
 }
 
 .footer-subtitle {
@@ -350,6 +458,7 @@ ul {
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.02em;
+  width: 300px;
 }
 
 .footer-subtitle span {
@@ -361,6 +470,7 @@ ul {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
+  margin-bottom: 14px;
 }
 
 .footer-soc-list {
@@ -396,6 +506,12 @@ ul {
 .footer-address-link {
 }
 
+.footer-menu {
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+  margin-top: 50px;
+}
+
 .footer-nav {
 }
 
@@ -415,15 +531,18 @@ letter-spacing: -0.02em;
 
 .footer-btn-enter {
   color: rgba(255, 255, 255, 0.30);
+  background-color: #1E1823;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 400;
+  text-align: left;
   line-height: normal;
   letter-spacing: -0.02em;
   cursor: pointer;
-
+  padding: 14px 24px;
+  width: 313px;
   border-radius: 30px;
-  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  border: 1,5px solid rgba(255, 255, 255, 0.15);
 }
 
 .footer-btn-subsr {
@@ -431,9 +550,11 @@ letter-spacing: -0.02em;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 600;
+  text-align: center;
   line-height: normal;
   cursor: pointer;
-
+  width: 137px;
+  padding: 17px 40px;
   border-radius: 100px;
   background: #FD9222;
 }
