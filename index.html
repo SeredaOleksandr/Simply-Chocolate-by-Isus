@@ -109,6 +109,11 @@
           <h2 class="about-title">About</h2>
           <ul class="about-list">
             <li class="about-item">
+              <div class="about-item-wrapper">
+                <svg class="about-item-icon" width="28" height="28">
+                  <use href="./images/icons.svg#icon-chocolate-two"></use>
+                </svg>
+              </div>
               <h3 class="about-subtitle">Unsurpassed taste</h3>
               <p class="about-item-text">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -118,6 +123,11 @@
               </p>
             </li>
             <li class="about-item">
+              <div class="about-item-wrapper">
+                <svg class="about-item-icon" width="27" height="27">
+                  <use href="./images/icons.svg#icon-price"></use>
+                </svg>
+              </div>
               <h3 class="about-subtitle">Affordable price</h3>
               <p class="about-item-text">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -128,6 +138,11 @@
               </p>
             </li>
             <li class="about-item">
+              <div class="about-item-wrapper">
+                <svg class="about-item-icon" width="28" height="28">
+                  <use href="./images/icons.svg#icon-spoon"></use>
+                </svg>
+              </div>
               <h3 class="about-subtitle">Own production</h3>
               <p class="about-item-text">
                 We take pride in our own production process, ensuring that every
@@ -402,30 +417,60 @@
           <h2 class="sellers-title title"><span>Top</span> Sellers</h2>
           <ul class="sellers-list">
             <li class="sellers-item">
-              <img
-                class="sellers-list-img"
-                src="./images/top-sellers-img1.png"
-                alt="Chocolate With Nuts on a table"
-                width="368"
-              />
+              <div class="sellers-overley-wrap">
+                <img
+                  class="sellers-list-img"
+                  src="./images/top-sellers-img1.png"
+                  alt="Chocolate With Nuts on a table"
+                  width="368"
+                />
+                <div class="sellers-list-overley">
+                  <p class="sellers-text-overley">
+                    Chocolate with fruit is an unbeatable combination of two of the
+                    tastiest things in the world. This dessert combines delicate and
+                    aromatic chocolate with fresh and juicy fruits, creating a true
+                    poetry of taste.
+                  </p>
+                </div>
+              </div>
               <h3 class="sellers-subtitle">Chocolate With Nuts</h3>
             </li>
             <li class="sellers-item">
-              <img
-                class="sellers-list-img"
-                src="./images/top-sellers-img2.png"
-                alt="Chocolate With Fruits"
-                width="368"
-              />
+              <div class="sellers-overley-wrap">
+                <img
+                  class="sellers-list-img"
+                  src="./images/top-sellers-img2.png"
+                  alt="Chocolate With Fruits"
+                  width="368"
+                />
+                <div class="sellers-list-overley">
+                  <p class="sellers-text-overley">
+                    Chocolate with fruit is an unbeatable combination of two of the
+                    tastiest things in the world. This dessert combines delicate and
+                    aromatic chocolate with fresh and juicy fruits, creating a true
+                    poetry of taste.
+                  </p>
+                </div>
+              </div>
               <h3 class="sellers-subtitle">Chocolate With Fruits</h3>
             </li>
             <li class="sellers-item">
-              <img
-                class="sellers-list-img"
-                src="./images/top-sellers-img3.png"
-                alt="Several pieces of dark chocolate on the table"
-                width="368"
-              />
+              <div class="sellers-overley-wrap">
+                <img
+                  class="sellers-list-img"
+                  src="./images/top-sellers-img3.png"
+                  alt="Several pieces of dark chocolate on the table"
+                  width="368"
+                />
+                <div class="sellers-list-overley">
+                  <p class="sellers-text-overley">
+                    Chocolate with fruit is an unbeatable combination of two of the
+                    tastiest things in the world. This dessert combines delicate and
+                    aromatic chocolate with fresh and juicy fruits, creating a true
+                    poetry of taste.
+                  </p>
+                </div>
+              </div>
               <h3 class="sellers-subtitle">Dark Chocolate</h3>
             </li>
           </ul>
@@ -507,13 +552,10 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
-                      class="footer-soc-icon"
-                      src="./images/instagram.svg"
-                      alt="instagram icon"
-                      width="24"
-                      height="24"
-                  /></a>
+                    <svg class="footer-soc-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="footer-soc-item">
                   <a
@@ -522,13 +564,10 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
-                      class="footer-soc-icon"
-                      src="./images/facebook.svg"
-                      alt="facebook icon"
-                      width="24"
-                      height="24"
-                  /></a>
+                    <svg class="footer-soc-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li class="footer-soc-item">
                   <a
@@ -537,13 +576,10 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
-                      class="footer-soc-icon"
-                      src="./images/twitter.svg"
-                      alt="twitter icon"
-                      width="24"
-                      height="24"
-                  /></a>
+                    <svg class="footer-soc-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -585,9 +621,13 @@
             </ul>
           </nav>
           <div class="footer-menu-btn">
-            <button class="footer-btn-enter" type="button">
-              Enter your email
-            </button>
+            <input
+              class="footer-form-input"
+              type="text"
+              name="email-address"
+              placeholder="Enter your email"
+              autofocus
+            />
             <button class="footer-btn-subsr" type="button">Subscribe</button>
           </div>
         </div>
